@@ -1,0 +1,2 @@
+Welcome <%= current_user.name %> you are on the profile of <%= @user.name %>
+<%= link_to "logout", destroy_user_session_path, method: "DELETE" %>
